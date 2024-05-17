@@ -1,0 +1,31 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 10px;
+    width: calc(33.33% - 20px); /* Calcula a largura para 3 cards por linha com margens */
+    max-width: 420px; 
+    flex-grow: 1; /* Permite que os cards cresçam para ocupar todo o espaço disponível */
+}
+
+.product-collection {
+    color: #828282;
+    line-height: 30px;
+}
+
+.product-title {
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+.product-price {
+    line-height: 30px;
+}
+
+.card {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,58 @@
+/* Estilos para o contêiner principal do card */
+.featured-card {
+    position: relative;
+    padding: 16px;
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+  /* Estilos para o contêiner de imagens */
+.image-container {
+    display: flex;
+    align-items: center;
+}
+  
+  /* Estilos para a imagem principal */
+.main-image {
+    width: 580px;
+    height: auto;
+    margin-right: 8px;
+}
+
+  /* Estilos para o contêiner das imagens extras */
+.extra-images {
+    display: flex; /* Faz com que as imagens extras fiquem uma ao lado da outra */
+}
+  
+  /* Estilos para as imagens extras */
+.extra-image {
+    width: 290px;
+    height: auto;
+    margin-right: 50px; /* Espaçamento entre as imagens extras */
+    margin-top: 172px;
+}
+  
+.products {
+    position: absolute;
+    margin-left: 630px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.product-collection {
+    color: #828282;
+    line-height: 30px;
+}
+
+.product-title {
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+.product-price {
+    line-height: 30px;
+}
+
+.texto2 h1 {
+    font-size: 40px;
+}

@@ -1,0 +1,56 @@
+
+
+.header {
+    display: flex;
+    flex-direction: column; /* alterei*/
+    
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    width: 220px;
+}
+
+.header-logo img {
+    width: 290px;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 10px 10px 0px 0px;
+}
+
+.header-icons img {
+    width: 60px;
+}
+
+.header-icons input {
+    padding: 20px 55px 20px 15px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+.header-icons input::placeholder {
+    color: #e0e0e0;
+}
+
+.header-banner {
+    display: flex; 
+    justify-content: center;
+}
+
+.texto p {
+    padding: 7px;
+    font-size: 32px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
